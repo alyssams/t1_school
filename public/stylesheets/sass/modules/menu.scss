@@ -1,0 +1,22 @@
+nav {
+    padding: 13px;
+    text-align: right;
+}
+
+.link-1 {
+    transition: 0.3s ease;
+    background: $grey;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 2px solid $grey;
+    border-bottom: 2px solid $grey;
+    padding: 9px 0;
+    margin: 0 20px;
+}
+
+.link-1:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}

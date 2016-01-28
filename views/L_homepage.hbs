@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>HTML AND CSS COURSE</title>
+        <meta name="author" content="Alyssa Saucedo" />
+        <meta name="description" content="Team One learns how to CODE" />
+        <meta name="keywords" content="code,html,css,animations,developing" />
+        <link rel="stylesheet" href="./../stylesheets/codemirror.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+        <link rel="stylesheet" href="./../stylesheets/main.css" />
+        <script data-main="./../javascripts/base" src="./../javascripts/libs/codemirror/lib/codemirror.js"></script>
+        <script data-main="./../javascripts/base" src="./../javascripts/libs/codemirror/mode/xml/xml.js"></script>
+        <script data-main="./../javascripts/base" src="./../javascripts/libs/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+        <script data-main="./../javascripts/base" src="./../javascripts/libs/codemirror/mode/css/css.js"></script>
+        <script data-main="./../javascripts/base" src="./../javascripts/libs/codemirror/mode/javascript/javascript.js"></script>
+        {{!-- //
+        <script data-main="./../javascripts/base" src="./../javascripts/libs/codemirror/playground.js"></script> --}}
+        <script data-main="./../javascripts/base" src="./../javascripts/libs/require/require.js"></script>
+        <script src="./../javascripts/require-config.js"></script>
+
+        <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+    </head>
+    <body>
+        {{> global-nav}}{{{body}}}
+    </body>
+</html>

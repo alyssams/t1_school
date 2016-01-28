@@ -1,0 +1,917 @@
+@charset "UTF-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url("//hello.myfonts.net/count/29d649");
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace,serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 2741833, 2014-02-06T18:05:46-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed ./Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Avenir 45 Book by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 65 Medium Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/65-mediumoblique/
+ * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights Reserved.
+ *
+ * Webfont: Avenir 95 Black by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/95-black/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 45 Book Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book-oblique/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 95 Black Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/95-black-oblique/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 65 Medium by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/65-medium/
+ * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights Reserved.
+ *
+ * Webfont: Avenir 35 Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 55 Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/55-oblique/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 55 Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/55-roman/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 85 Heavy Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy-oblique/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 35 Light Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light-oblique/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: Avenir 85 Heavy by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2741833
+ * Licensed pageviews: 250,000
+ *
+ * © 2014 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url("./webfonts/29D649_0_0.eot");
+  src: url("./webfonts/29D649_0_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_0_0.woff") format("woff"), url("./webfonts/29D649_0_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-MediumOblique';
+  src: url("./webfonts/29D649_1_0.eot");
+  src: url("./webfonts/29D649_1_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_1_0.woff") format("woff"), url("./webfonts/29D649_1_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-Black';
+  src: url("./webfonts/29D649_2_0.eot");
+  src: url("./webfonts/29D649_2_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_2_0.woff") format("woff"), url("./webfonts/29D649_2_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-BookOblique';
+  src: url("./webfonts/29D649_3_0.eot");
+  src: url("./webfonts/29D649_3_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_3_0.woff") format("woff"), url("./webfonts/29D649_3_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-BlackOblique';
+  src: url("./webfonts/29D649_4_0.eot");
+  src: url("./webfonts/29D649_4_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_4_0.woff") format("woff"), url("./webfonts/29D649_4_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url("./webfonts/29D649_5_0.eot");
+  src: url("./webfonts/29D649_5_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_5_0.woff") format("woff"), url("./webfonts/29D649_5_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url("./webfonts/29D649_6_0.eot");
+  src: url("./webfonts/29D649_6_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_6_0.woff") format("woff"), url("./webfonts/29D649_6_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-Oblique';
+  src: url("./webfonts/29D649_7_0.eot");
+  src: url("./webfonts/29D649_7_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_7_0.woff") format("woff"), url("./webfonts/29D649_7_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url("./webfonts/29D649_8_0.eot");
+  src: url("./webfonts/29D649_8_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_8_0.woff") format("woff"), url("./webfonts/29D649_8_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-HeavyOblique';
+  src: url("./webfonts/29D649_9_0.eot");
+  src: url("./webfonts/29D649_9_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_9_0.woff") format("woff"), url("./webfonts/29D649_9_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-LightOblique';
+  src: url("./webfonts/29D649_A_0.eot");
+  src: url("./webfonts/29D649_A_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_A_0.woff") format("woff"), url("./webfonts/29D649_A_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AvenirLTStd-Heavy';
+  src: url("./webfonts/29D649_B_0.eot");
+  src: url("./webfonts/29D649_B_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_B_0.woff") format("woff"), url("./webfonts/29D649_B_0.ttf") format("truetype");
+}
+/* TRANSFORMS */
+/* ANIMATIONS */
+/* ANIMATION FUNCTIONS */
+/* TYPOGRAPHY */
+/* MEDIA QUERIES */
+nav {
+  padding: 13px;
+  text-align: right;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: #031603;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 2px solid #031603;
+  border-bottom: 2px solid #031603;
+  padding: 9px 0;
+  margin: 0 20px;
+}
+
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body {
+  font-family: arial,helvetica;
+}
+
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  position: relative;
+}
+
+p {
+  font-size: 2em;
+}
+
+.intro p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.section {
+  text-align: center;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#menu li {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#menu li.active {
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+#menu li a {
+  text-decoration: none;
+  color: #000;
+}
+#menu li.active a:hover {
+  color: #000;
+}
+#menu li:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+#menu li a {
+  padding: 9px 18px;
+  display: block;
+}
+#menu li.active a {
+  padding: 9px 18px;
+  display: block;
+  color: #fff;
+}
+
+.twitter-share-button {
+  position: fixed;
+  z-index: 99;
+  right: 149px;
+  top: 9px;
+}
+
+#download {
+  margin: 10px 0 0 0;
+  padding: 15px 10px;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -ms-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(top, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#2f96b4', GradientType=0);
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+#download a {
+  text-decoration: none;
+  color: #fff;
+}
+#download:hover {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #2F96B4;
+  background-position: 0 -15px;
+  -webkit-transition: background-position .1s linear;
+  -moz-transition: background-position .1s linear;
+  -ms-transition: background-position .1s linear;
+  -o-transition: background-position .1s linear;
+  transition: background-position .1s linear;
+}
+
+#infoMenu {
+  height: 20px;
+  color: #f2f2f2;
+  position: fixed;
+  z-index: 70;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  font-size: 0.9em;
+  padding: 8px 0 8px 0;
+}
+#infoMenu ul {
+  padding: 0 40px;
+}
+#infoMenu li {
+  display: inline-block;
+  position: relative;
+}
+#infoMenu li a {
+  display: block;
+  margin: 0 22px 0 0;
+  color: #333;
+}
+#infoMenu li a:hover {
+  text-decoration: underline;
+}
+
+#examplesList {
+  display: none;
+  background: #282828;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 20px;
+  float: left;
+  position: absolute;
+  bottom: 29px;
+  right: 0;
+  width: 638px;
+  text-align: left;
+}
+#examplesList ul {
+  padding: 0;
+}
+#examplesList ul li {
+  display: block;
+  margin: 5px 0;
+}
+#examplesList ul li a {
+  color: #BDBDBD;
+  margin: 0;
+}
+#examplesList ul li a:hover {
+  color: #f2f2f2;
+}
+#examplesList .column {
+  float: left;
+  margin: 0 20px 0 0;
+}
+#examplesList h3 {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  padding: 0 0 5px 0;
+}
+
+/* Demos Menu
+ * --------------------------------------- */
+#demosMenu {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+#wrapper {
+  height: 90%;
+  margin-top: 3%;
+}
+#wrapper h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+  line-height: 2em;
+}
+#wrapper #wrap {
+  width: 70%;
+  height: 70%;
+  position: relative;
+  margin: 20px auto;
+  border: 1px solid #444;
+  max-width: 960px;
+  overflow: hidden;
+}
+#wrapper #wrap h3 {
+  font-size: 13px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 0;
+  background: #031603;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Code Editors */
+#code_editors {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 60%;
+  max-width: 400px;
+  width: 40%;
+  background: #112435;
+}
+#code_editors .code_box {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.code_box textarea {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30px;
+  bottom: 0;
+  resize: none;
+  border: 0;
+  padding: 10px;
+  font-family: monospace;
+}
+.code_box textarea:focus {
+  outline: none;
+  background: #EFEFEF;
+}
+
+/* Output Area */
+#output {
+  position: absolute;
+  left: 40%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #ffffff;
+}
+#output iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.ac-container {
+  width: 100%;
+  margin: 10px auto 30px auto;
+  text-align: left;
+  max-width: 960px;
+  text-align: left;
+}
+.ac-container label {
+  font-size: 2em;
+  line-height: 60px;
+  padding: 5px 20px;
+  position: relative;
+  z-index: 20;
+  display: block;
+  cursor: pointer;
+  color: #777;
+  border: 1px solid black;
+}
+.ac-container label:hover {
+  background: #fff;
+}
+.ac-container input:checked + label {
+  background: #3FACEC;
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3), 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.ac-container input:checked + label:hover {
+  background: #3FACEC;
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3), 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.ac-container label:hover:after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 13px;
+  top: 7px;
+  background: transparent url(../images/arrow_down.png) no-repeat center center;
+}
+.ac-container input {
+  display: none;
+}
+.ac-container input:checked + label:hover:after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 13px;
+  top: 7px;
+  background: transparent url(../images/arrow_down.png) no-repeat center center;
+  background-image: url(../images/arrow_up.png);
+}
+.ac-container article {
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: -1px;
+  overflow: hidden;
+  height: 0px;
+  position: relative;
+  z-index: 10;
+  -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+  -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+  -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+  -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+  transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.ac-container article p {
+  font-style: italic;
+  color: #777;
+  line-height: 23px;
+  font-size: 14px;
+  padding: 20px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+.ac-container input:checked ~ article {
+  -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+  -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+  -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+  -ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+  transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+  box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3);
+}
+.ac-container input:checked ~ article.ac-small {
+  height: 140px;
+}
+.ac-container input:checked ~ article.ac-medium {
+  height: 180px;
+}
+.ac-container input:checked ~ article.ac-large {
+  height: 230px;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'AvenirLTStd-Light', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #ffffff;
+  font-size: 1.6rem;
+}
+
+.CodeMirror {
+  top: 37px !important;
+  height: 90% !important;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #000000;
+}
+
+h1 {
+  visibility: hidden;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+header {
+  position: relative;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: #031603;
+  top: 0px;
+}
+header .logo {
+  position: absolute;
+  top: 6px;
+  left: 20px;
+}
+
+.container {
+  visibility: hidden;
+  border: 1px solid black;
+  max-width: 960px;
+  margin: 10px auto 50px auto;
+  text-align: left;
+  padding: 20px;
+  background: white;
+}
+.container h3 {
+  font-size: 2em;
+  line-height: 60px;
+}
+
+.btn {
+  visibility: hidden;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: table;
+  margin: 30px auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  background: #cb4e4e;
+  color: #fff;
+  box-shadow: 0 6px #ab3c3c;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  box-shadow: 0 4px #ab3c3c;
+  top: 2px;
+}
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#wrapper {
+  visibility: hidden;
+}
+#wrapper img:nth-child(1) {
+  position: relative;
+  top: 2px;
+}
+#wrapper img:nth-child(2) {
+  position: relative;
+  top: 0px;
+}
+#wrapper .intro {
+  margin: 0 auto;
+  background: #3FACEC;
+  width: 100%;
+  padding: 100px;
+}
+#wrapper .intro .description {
+  line-height: 36px;
+  margin-top: 30px;
+  margin: 30px auto 0;
+  text-align: center;
+  color: black;
+  max-width: 960px;
+}
+#wrapper .intro p {
+  margin: 0 auto;
+  font-size: 1em;
+  padding: 20px;
+}
+#wrapper ul {
+  display: inline-flex;
+}
+#wrapper ul li {
+  display: inline;
+  margin: 60px;
+}
+#wrapper ul li h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+#wrapper ul li p {
+  text-align: left;
+  font-size: 1em;
+  line-height: 24px;
+}
+#wrapper p.disclosure {
+  line-height: 30px;
+  padding: 20px 20px 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1em;
+  max-width: 870px;
+}
+#wrapper > span {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+/*# sourceMappingURL=main.css.map */
