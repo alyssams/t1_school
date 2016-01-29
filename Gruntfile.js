@@ -142,11 +142,4 @@ module.exports = function (grunt) {
         'sass:dev',
         'jshint'
     ]);
-
-    grunt.registerTask('build', [
-        'clean',
-        'jshint',
-        'sass:build',
-        'uglify:build'
-    ]);
 };
