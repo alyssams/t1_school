@@ -5,15 +5,14 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('t1-redesign:server');
+var debug = require('debug')('t1-school:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
-app.set('port', port);
+app.set('port', process.env.PORT || 3000);
 
 /**
  * Create HTTP server.
@@ -25,8 +24,8 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port, function() {
-  console.log("Express Server running on port " + port);
+server.listen(app.get('port'), function() {
+  console.log("Express Server running on port " + server.address().port);
 });
 server.on('error', onError);
 server.on('listening', onListening);
