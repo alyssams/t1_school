@@ -45,6 +45,17 @@ body {
     };
 }
 
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
 .CodeMirror {
     top: 37px !important;
     height: 90% !important;
@@ -149,7 +160,10 @@ header {
         margin: 0 auto;
         background: $blue;
         width: 100%;
-        padding: 100px;
+        padding: 30px;
+        background-image: url("../../images/browsers_ipads.png");
+
+        // padding: 195px 0;
 
         .description {
             line-height: 36px;
@@ -168,12 +182,21 @@ header {
         }
     }
 
-    ul {
+    > ul {
         display: inline-flex;
+        width: 100%;
 
         li {
             display: inline;
-            margin: 60px;
+            margin: 20px auto;
+            width: 22%;
+
+            img {
+                display: block;
+                height: auto;
+                width: 60%;
+                margin: 13px auto;
+            }
 
             h3 {
                 text-align: center;
@@ -190,7 +213,7 @@ header {
 
     p.disclosure {
         line-height: 30px;
-        padding: 20px 20px 80px;
+        padding: 20px;
         margin: 0 auto;
         text-align: center;
         font-size: 1em;
@@ -202,5 +225,38 @@ header {
         bottom: 10px;
         left: 50%;
         margin-left: -50px;
+    }
+}
+
+.overview {
+    clear: both;
+
+    ul.track {
+        margin: 20px 0;
+        display: block;
+        float: left;
+        position: relative;
+        top: 30px;
+
+        li {
+            padding: 1px 17px;
+            margin-left: 29px;
+            list-style: initial;
+
+            p {
+                color: black;
+                font-size: 15px;
+                padding: 0px;
+            }
+        }
+    }
+
+    h4 {
+        // text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        float: left;
+        position: relative;
+        left: 200px;
     }
 }

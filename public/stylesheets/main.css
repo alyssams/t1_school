@@ -581,7 +581,6 @@ p {
 
 #wrapper {
   height: 90%;
-  margin-top: 3%;
 }
 #wrapper h1 {
   text-transform: uppercase;
@@ -725,12 +724,10 @@ p {
   transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 }
 .ac-container article p {
-  font-style: italic;
-  color: #777;
+  color: black;
   line-height: 23px;
-  font-size: 14px;
+  font-size: 20px;
   padding: 20px;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }
 .ac-container input:checked ~ article {
   -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
@@ -741,13 +738,13 @@ p {
   box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3);
 }
 .ac-container input:checked ~ article.ac-small {
-  height: 140px;
+  height: 100px;
 }
 .ac-container input:checked ~ article.ac-medium {
-  height: 180px;
+  height: 200px;
 }
 .ac-container input:checked ~ article.ac-large {
-  height: 230px;
+  height: 400px;
 }
 
 *, *::after, *::before {
@@ -770,6 +767,17 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #ffffff;
   font-size: 1.6rem;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
 .CodeMirror {
@@ -868,7 +876,8 @@ header .logo {
   margin: 0 auto;
   background: #3FACEC;
   width: 100%;
-  padding: 100px;
+  padding: 30px;
+  background-image: url("../../images/browsers_ipads.png");
 }
 #wrapper .intro .description {
   line-height: 36px;
@@ -883,25 +892,33 @@ header .logo {
   font-size: 1em;
   padding: 20px;
 }
-#wrapper ul {
+#wrapper > ul {
   display: inline-flex;
+  width: 100%;
 }
-#wrapper ul li {
+#wrapper > ul li {
   display: inline;
-  margin: 60px;
+  margin: 20px auto;
+  width: 22%;
 }
-#wrapper ul li h3 {
+#wrapper > ul li img {
+  display: block;
+  height: auto;
+  width: 60%;
+  margin: 13px auto;
+}
+#wrapper > ul li h3 {
   text-align: center;
   font-size: 1.5em;
 }
-#wrapper ul li p {
+#wrapper > ul li p {
   text-align: left;
   font-size: 1em;
   line-height: 24px;
 }
 #wrapper p.disclosure {
   line-height: 30px;
-  padding: 20px 20px 80px;
+  padding: 20px;
   margin: 0 auto;
   text-align: center;
   font-size: 1em;
@@ -912,6 +929,34 @@ header .logo {
   bottom: 10px;
   left: 50%;
   margin-left: -50px;
+}
+
+.overview {
+  clear: both;
+}
+.overview ul.track {
+  margin: 20px 0;
+  display: block;
+  float: left;
+  position: relative;
+  top: 30px;
+}
+.overview ul.track li {
+  padding: 1px 17px;
+  margin-left: 29px;
+  list-style: initial;
+}
+.overview ul.track li p {
+  color: black;
+  font-size: 15px;
+  padding: 0px;
+}
+.overview h4 {
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  position: relative;
+  left: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
