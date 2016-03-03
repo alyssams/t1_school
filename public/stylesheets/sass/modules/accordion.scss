@@ -1,9 +1,37 @@
+@mixin bp($point) {
+    @if $point == largeWidth {
+        @media (min-width: 960px) {
+            @content;
+        }
+    }
+    @else if $point == mediumWidth {
+        @media (min-width: 641px) and (max-width: 959px) {
+            @content;
+        }
+    }
+    @else if $point == smallWidth {
+        @media (max-width: 640px) {
+            @content;
+        }
+    }
+}
+
 .ac-container {
     width: 100%;
     margin: 10px auto 30px auto;
     text-align: left;
     max-width: 960px;
     text-align: left;
+
+    @include bp(mediumWidth) {
+        width: 90%;
+    }
+
+
+    @include bp(smallWidth) {
+        width: 90%;
+    }
+
 
     label {
         // font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;

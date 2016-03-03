@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 @import url("//hello.myfonts.net/count/29d649");
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -173,70 +172,6 @@ table {
   border-spacing: 0;
 }
 
-/**
- * @license
- * MyFonts Webfont Build ID 2741833, 2014-02-06T18:05:46-0500
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed ./Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: Avenir 45 Book by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 65 Medium Oblique by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/65-mediumoblique/
- * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights Reserved.
- *
- * Webfont: Avenir 95 Black by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/95-black/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 45 Book Oblique by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book-oblique/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 95 Black Oblique by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/95-black-oblique/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 65 Medium by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/65-medium/
- * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights Reserved.
- *
- * Webfont: Avenir 35 Light by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 55 Oblique by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/55-oblique/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 55 Roman by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/55-roman/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 85 Heavy Oblique by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy-oblique/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 35 Light Oblique by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light-oblique/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- * Webfont: Avenir 85 Heavy by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy/
- * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
- *
- *
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2741833
- * Licensed pageviews: 250,000
- *
- * © 2014 MyFonts Inc
-*/
 /* @import must be at top of file, otherwise CSS will not work */
 @font-face {
   font-family: 'AvenirLTStd-Book';
@@ -298,11 +233,10 @@ table {
   src: url("./webfonts/29D649_B_0.eot");
   src: url("./webfonts/29D649_B_0.eot?#iefix") format("embedded-opentype"), url("./webfonts/29D649_B_0.woff") format("woff"), url("./webfonts/29D649_B_0.ttf") format("truetype");
 }
-/* TRANSFORMS */
-/* ANIMATIONS */
-/* ANIMATION FUNCTIONS */
-/* TYPOGRAPHY */
-/* MEDIA QUERIES */
+@font-face {
+  font-family: 'consolas';
+  src: url("./../fonts/Consolas.ttf");
+}
 nav {
   padding: 13px;
   text-align: right;
@@ -394,7 +328,7 @@ body {
 }
 
 p {
-  font-size: 2em;
+  font-size: 20px;
 }
 
 .intro p {
@@ -579,88 +513,22 @@ p {
   z-index: 999;
 }
 
-#wrapper {
-  height: 90%;
-}
-#wrapper h1 {
-  text-transform: uppercase;
-  font-size: 4em;
-  line-height: 2em;
-}
-#wrapper #wrap {
-  width: 70%;
-  height: 70%;
-  position: relative;
-  margin: 20px auto;
-  border: 1px solid #444;
-  max-width: 960px;
-  overflow: hidden;
-}
-#wrapper #wrap h3 {
-  font-size: 13px;
-  height: 30px;
-  padding: 5px 10px;
-  margin: 0;
-  background: #031603;
-  color: #ffffff;
-  text-align: center;
-}
-
-/* Code Editors */
-#code_editors {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 60%;
-  max-width: 400px;
-  width: 40%;
-  background: #112435;
-}
-#code_editors .code_box {
-  height: 50%;
-  width: 100%;
-  position: relative;
-}
-
-.code_box textarea {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 30px;
-  bottom: 0;
-  resize: none;
-  border: 0;
-  padding: 10px;
-  font-family: monospace;
-}
-.code_box textarea:focus {
-  outline: none;
-  background: #EFEFEF;
-}
-
-/* Output Area */
-#output {
-  position: absolute;
-  left: 40%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  background: #ffffff;
-}
-#output iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
 .ac-container {
   width: 100%;
   margin: 10px auto 30px auto;
   text-align: left;
   max-width: 960px;
   text-align: left;
+}
+@media (min-width: 641px) and (max-width: 959px) {
+  .ac-container {
+    width: 90%;
+  }
+}
+@media (max-width: 640px) {
+  .ac-container {
+    width: 90%;
+  }
 }
 .ac-container label {
   font-size: 2em;
@@ -766,7 +634,6 @@ body {
   font-family: 'AvenirLTStd-Light', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #ffffff;
-  font-size: 1.6rem;
 }
 
 .clearfix:after {
@@ -780,14 +647,36 @@ body {
   height: 0;
 }
 
-.CodeMirror {
-  top: 37px !important;
-  height: 90% !important;
+code {
+  font-size: 6em;
+}
+@media (max-width: 640px) {
+  code {
+    font-size: 4em;
+  }
 }
 
 h1, h2 {
   text-align: center;
   color: #000000;
+}
+
+h2 code {
+  font-size: 2em;
+}
+@media (max-width: 640px) {
+  h2 code {
+    font-size: 1em;
+  }
+}
+
+h3 code {
+  font-size: 1.2em;
+}
+@media (max-width: 640px) {
+  h3 code {
+    font-size: .8em;
+  }
 }
 
 h1 {
@@ -830,7 +719,7 @@ header .logo {
   visibility: hidden;
   border: none;
   font-family: inherit;
-  font-size: inherit;
+  font-size: 20px;
   cursor: pointer;
   padding: 25px 80px;
   display: table;
@@ -874,7 +763,7 @@ header .logo {
 }
 #wrapper .intro {
   margin: 0 auto;
-  background: #3FACEC;
+  background-color: #79CEFF;
   width: 100%;
   padding: 30px;
   background-image: url("../../images/browsers_ipads.png");
@@ -885,7 +774,8 @@ header .logo {
   margin: 30px auto 0;
   text-align: center;
   color: black;
-  max-width: 960px;
+  max-width: 860px;
+  font-size: 20px;
 }
 #wrapper .intro p {
   margin: 0 auto;
@@ -895,6 +785,18 @@ header .logo {
 #wrapper > ul {
   display: inline-flex;
   width: 100%;
+}
+@media (min-width: 641px) and (max-width: 959px) {
+  #wrapper > ul {
+    display: block;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 640px) {
+  #wrapper > ul {
+    display: block;
+    margin-bottom: 100px;
+  }
 }
 #wrapper > ul li {
   display: inline;
@@ -907,21 +809,43 @@ header .logo {
   width: 60%;
   margin: 13px auto;
 }
+@media (min-width: 641px) and (max-width: 959px) {
+  #wrapper > ul li img {
+    width: 20%;
+  }
+}
+@media (max-width: 640px) {
+  #wrapper > ul li img {
+    width: 30%;
+  }
+}
 #wrapper > ul li h3 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 #wrapper > ul li p {
   text-align: left;
-  font-size: 1em;
   line-height: 24px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 641px) and (max-width: 959px) {
+  #wrapper > ul li p {
+    width: 80%;
+  }
+}
+@media (max-width: 640px) {
+  #wrapper > ul li p {
+    width: 80%;
+  }
 }
 #wrapper p.disclosure {
   line-height: 30px;
   padding: 20px;
   margin: 0 auto;
   text-align: center;
-  font-size: 1em;
+  font-size: 20px;
   max-width: 870px;
 }
 #wrapper > span {
@@ -957,6 +881,16 @@ header .logo {
   float: left;
   position: relative;
   left: 200px;
+}
+
+.about img {
+  float: right;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about p {
+  line-height: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -12,11 +12,32 @@ $blue: #3FACEC;
 
 @import "modules/normalize";
 @import "modules/fonts";
-@import "modules/mixins";
 @import "modules/menu";
 @import "modules/set";
-@import "modules/editor";
 @import "modules/accordion";
+
+@mixin font-avenirLight {
+    font-family: 'AvenirLTStd-Light', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin bp($point) {
+    @if $point == largeWidth {
+        @media (min-width: 960px) {
+            @content;
+        }
+    }
+    @else if $point == mediumWidth {
+        @media (min-width: 641px) and (max-width: 959px) {
+            @content;
+        }
+    }
+    @else if $point == smallWidth {
+        @media (max-width: 640px) {
+            @content;
+        }
+    }
+}
 
 *, *::after, *::before {
     // @include box-sizing(border-box);
@@ -38,11 +59,6 @@ body {
     @include font-avenirLight;
 
     background: $white;
-    font: {
-        size: 1.6rem;
-
-        // family: $primary-font;
-    };
 }
 
 .clearfix:after {
@@ -56,14 +72,33 @@ body {
     height: 0;
 }
 
-.CodeMirror {
-    top: 37px !important;
-    height: 90% !important;
+code {
+    font-size: 6em;
+
+    @include bp(smallWidth) {
+        font-size: 4em;
+    }
 }
 
 h1, h2 {
     text-align: center;
     color: $black;
+}
+
+h2 code {
+    font-size: 2em;
+
+    @include bp(smallWidth) {
+        font-size: 1em;
+    }
+}
+
+h3 code {
+    font-size: 1.2em;
+
+    @include bp(smallWidth) {
+        font-size: .8em;
+    }
 }
 
 h1 {
@@ -110,7 +145,7 @@ header {
     visibility: hidden;
     border: none;
     font-family: inherit;
-    font-size: inherit;
+    font-size: 20px;
     cursor: pointer;
     padding: 25px 80px;
     display: table;
@@ -158,7 +193,9 @@ header {
 
     .intro {
         margin: 0 auto;
-        background: $blue;
+
+        // background: $blue;
+        background-color: #79CEFF;
         width: 100%;
         padding: 30px;
         background-image: url("../../images/browsers_ipads.png");
@@ -171,7 +208,8 @@ header {
             margin: 30px auto 0;
             text-align: center;
             color: black;
-            max-width: 960px;
+            max-width: 860px;
+            font-size: 20px;
         }
 
         p {
@@ -186,6 +224,18 @@ header {
         display: inline-flex;
         width: 100%;
 
+        @include bp(mediumWidth) {
+            display: block;
+            margin-bottom: 100px;
+        }
+
+
+        @include bp(smallWidth) {
+            display: block;
+            margin-bottom: 100px;
+        }
+
+
         li {
             display: inline;
             margin: 20px auto;
@@ -196,17 +246,37 @@ header {
                 height: auto;
                 width: 60%;
                 margin: 13px auto;
+
+                @include bp(mediumWidth) {
+                    width: 20%;
+                }
+
+
+                @include bp(smallWidth) {
+                    width: 30%;
+                }
             }
 
             h3 {
                 text-align: center;
-                font-size: 1.5em;
+                font-size: 2em;
             }
 
             p {
                 text-align: left;
-                font-size: 1em;
                 line-height: 24px;
+                margin: 0 auto;
+                width: 100%;
+                text-align: center;
+
+                @include bp(mediumWidth) {
+                    width: 80%;
+                }
+
+
+                @include bp(smallWidth) {
+                    width: 80%;
+                }
             }
         }
     }
@@ -216,7 +286,7 @@ header {
         padding: 20px;
         margin: 0 auto;
         text-align: center;
-        font-size: 1em;
+        font-size: 20px;
         max-width: 870px;
     }
 
@@ -258,5 +328,18 @@ header {
         float: left;
         position: relative;
         left: 200px;
+    }
+}
+
+.about {
+    img {
+        float: right;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        line-height: 30px;
     }
 }
