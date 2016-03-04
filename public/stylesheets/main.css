@@ -691,6 +691,7 @@ body {
 
 code {
   font-size: 6em;
+  color: #3e4b75;
 }
 @media (max-width: 640px) {
   code {
@@ -795,7 +796,7 @@ header .logo {
   font-weight: 700;
   outline: none;
   position: relative;
-  background: #cb4e4e;
+  background: #ee5c51;
   color: #fff;
   box-shadow: 0 6px #ab3c3c;
   -webkit-transition: none;
