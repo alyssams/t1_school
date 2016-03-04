@@ -8,19 +8,6 @@ $pink: #f23280;
 $black: #000000;
 $blue: #3FACEC;
 
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-
-@import "modules/normalize";
-@import "modules/fonts";
-@import "modules/menu";
-@import "modules/set";
-@import "modules/accordion";
-
-@mixin font-avenirLight {
-    font-family: 'AvenirLTStd-Light', Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
-
 @mixin bp($point) {
     @if $point == largeWidth {
         @media (min-width: 960px) {
@@ -37,6 +24,19 @@ $blue: #3FACEC;
             @content;
         }
     }
+}
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import "modules/normalize";
+@import "modules/fonts";
+@import "modules/menu";
+@import "modules/set";
+@import "modules/accordion";
+
+@mixin font-avenirLight {
+    font-family: 'AvenirLTStd-Light', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 *, *::after, *::before {
@@ -124,6 +124,19 @@ header {
     }
 }
 
+.codeLogo {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    height: 150px;
+
+    @include bp(smallWidth) {
+        width: 70%;
+        height: 100%;
+    }
+}
+
 .container {
     visibility: hidden;
     border: 1px solid black;
@@ -132,6 +145,16 @@ header {
     text-align: left;
     padding: 20px;
     background: white;
+
+    @include bp(mediumWidth) {
+        width: 90%;
+    }
+
+
+    @include bp(smallWidth) {
+        width: 90%;
+    }
+
 
     h3 {
         font-size: 2em;
@@ -300,18 +323,22 @@ header {
 
 .overview {
     clear: both;
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 30px;
 
-    ul.track {
-        margin: 20px 0;
-        display: block;
-        float: left;
-        position: relative;
-        top: 30px;
+    .track {
+        width: 50%;
+    }
+
+    ul {
+        // display: inline-block;
+        margin: 30px auto 0 auto;
+        width: 70%;
 
         li {
-            padding: 1px 17px;
-            margin-left: 29px;
-            list-style: initial;
+            list-style-type: circle;
 
             p {
                 color: black;
@@ -322,12 +349,9 @@ header {
     }
 
     h4 {
-        // text-align: center;
         font-size: 18px;
         font-weight: bold;
-        float: left;
-        position: relative;
-        left: 200px;
+        text-align: center;
     }
 }
 
@@ -337,6 +361,10 @@ header {
         margin-left: 20px;
         margin-top: 40px;
         margin-bottom: 40px;
+
+        @include bp(smallWidth) {
+            width: 100%;
+        }
     }
 
     p {

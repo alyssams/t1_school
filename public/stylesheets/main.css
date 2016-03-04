@@ -240,6 +240,12 @@ table {
 nav {
   padding: 13px;
   text-align: right;
+  margin-left: 60px;
+}
+@media (max-width: 640px) {
+  nav {
+    padding: 13px 0;
+  }
 }
 
 .link-1 {
@@ -252,6 +258,12 @@ nav {
   border-bottom: 2px solid #031603;
   padding: 9px 0;
   margin: 0 20px;
+}
+@media (max-width: 640px) {
+  .link-1 {
+    margin: 0 3%;
+    padding: 0;
+  }
 }
 
 .link-1:hover {
@@ -608,11 +620,41 @@ p {
 .ac-container input:checked ~ article.ac-small {
   height: 100px;
 }
+@media (min-width: 641px) and (max-width: 959px) {
+  .ac-container input:checked ~ article.ac-small {
+    height: auto;
+  }
+}
+@media (max-width: 640px) {
+  .ac-container input:checked ~ article.ac-small {
+    height: auto;
+  }
+}
 .ac-container input:checked ~ article.ac-medium {
   height: 200px;
 }
+@media (min-width: 641px) and (max-width: 959px) {
+  .ac-container input:checked ~ article.ac-medium {
+    height: auto;
+  }
+}
+@media (max-width: 640px) {
+  .ac-container input:checked ~ article.ac-medium {
+    height: auto;
+  }
+}
 .ac-container input:checked ~ article.ac-large {
   height: 400px;
+}
+@media (min-width: 641px) and (max-width: 959px) {
+  .ac-container input:checked ~ article.ac-large {
+    height: auto;
+  }
+}
+@media (max-width: 640px) {
+  .ac-container input:checked ~ article.ac-large {
+    height: auto;
+  }
 }
 
 *, *::after, *::before {
@@ -701,6 +743,20 @@ header .logo {
   left: 20px;
 }
 
+.codeLogo {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  height: 150px;
+}
+@media (max-width: 640px) {
+  .codeLogo {
+    width: 70%;
+    height: 100%;
+  }
+}
+
 .container {
   visibility: hidden;
   border: 1px solid black;
@@ -709,6 +765,16 @@ header .logo {
   text-align: left;
   padding: 20px;
   background: white;
+}
+@media (min-width: 641px) and (max-width: 959px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    width: 90%;
+  }
 }
 .container h3 {
   font-size: 2em;
@@ -857,20 +923,22 @@ header .logo {
 
 .overview {
   clear: both;
-}
-.overview ul.track {
-  margin: 20px 0;
-  display: block;
-  float: left;
   position: relative;
-  top: 30px;
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 30px;
 }
-.overview ul.track li {
-  padding: 1px 17px;
-  margin-left: 29px;
-  list-style: initial;
+.overview .track {
+  width: 50%;
 }
-.overview ul.track li p {
+.overview ul {
+  margin: 30px auto 0 auto;
+  width: 70%;
+}
+.overview ul li {
+  list-style-type: circle;
+}
+.overview ul li p {
   color: black;
   font-size: 15px;
   padding: 0px;
@@ -878,9 +946,7 @@ header .logo {
 .overview h4 {
   font-size: 18px;
   font-weight: bold;
-  float: left;
-  position: relative;
-  left: 200px;
+  text-align: center;
 }
 
 .about img {
@@ -888,6 +954,11 @@ header .logo {
   margin-left: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+@media (max-width: 640px) {
+  .about img {
+    width: 100%;
+  }
 }
 .about p {
   line-height: 30px;
