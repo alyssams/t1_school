@@ -603,10 +603,13 @@ p {
   -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
   transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 }
+.ac-container article h4 {
+  padding-top: 20px;
+}
 .ac-container article p {
   color: black;
   line-height: 23px;
-  font-size: 20px;
+  font-size: 15px;
   padding: 20px;
 }
 .ac-container input:checked ~ article {

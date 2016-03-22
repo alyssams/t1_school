@@ -135,9 +135,12 @@
 <section class="slide">
 	<h2>Images Cont'd</h2>
 	<p>Note that the image tag does not look like this: &lt;img&gt;&lt;/img&gt;. This is incorrect.</p>
-	<p>The "/" is completely optional on the above tags, however, so <img/> is not different from <img></p>
-	<p>In order to add an image, you will need to reference where the image lives. This is where we get into attributes. Attributes  provide additional information about HTML elements. The source attribute will tell us where the image you want to show lives. Another attribute we use inside the image tag is the alt tag. The alt tag describes the image.</p>
-	<pre><code>&lt;img src=&quot;cat.jpg&quot; alt=&quot;kitty sticking tongue out.&quot;/&gt;</code></pre>
+	<p>In order to add an image, you will need to reference where the image lives. This is where we get into attributes.</p>
+	<p>src is short for source. This tells the browser where it can find the image file. This will usually be a relative URL pointing to an image on your own site. Images will live in an images folder you create.</p>
+	<p>alt is short for alternative. This attribute provides a text description of what the image is.</p>
+	<p>title is an attribute that provides additional information about the image.</p>
+	<p>height and width are two attributes that specifies the width and height of the image in pixels. We'll learn more about pixels later.</p>
+	<pre><code>&lt;img src=&quot;images/cat.jpg&quot; alt=&quot;kitty sticking tongue out.&quot; width=&quot;200&quot; height=&quot;200&quot;/&gt; </code></pre>
 </section>
 <!-- deck.navigation snippet -->
 <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
