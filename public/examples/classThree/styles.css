@@ -1,0 +1,10 @@
+/*external style sheet*/
+body {
+	font-family: 'Dancing Script', cursive;
+}
+div{
+	width: 537px;
+	height: 800px;
+	background: antiquewhite;
+} 
+

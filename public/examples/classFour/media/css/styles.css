@@ -1,0 +1,50 @@
+*{
+	padding:0;
+	margin:0;
+}
+body {
+	background: beige;
+}
+#wrapper {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #a1ccd5;
+	background-image: url('../images/triangles.jpg');
+}
+h1 {
+	text-align: center;
+	color: red;
+	padding-top: 10px;
+	font-size: 30px;
+}
+nav {
+	text-align: center;
+}
+ul, li {
+	list-style: none;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+#boxes {
+	width: 425px;
+	margin: 0 auto;
+}
+.box {
+	width: 200;
+	height: 200px;
+	background: salmon;
+	padding: 0 10px;
+	margin: 10px 0;
+	border: 10px dotted #a1ccd5;
+	text-align: center;
+	font-size: 160px;
+	color: red;
+}
+
+
+

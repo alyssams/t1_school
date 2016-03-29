@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	margin:70px auto;
+	padding:5px;
+	width:600px;
+	background: grey;
+}
+.progress-bar{
+	height:60px;
+	background:green;
+	-webkit-animation-name:progress;
+	-webkit-animation-duration:5s;
+	-webkit-animation-timing-function:linear;
+	/*timing-function default is easing*/
+}
+
+@-webkit-keyframes progress {
+	from { width:   0%; }
+	to   { width: 100%; }
+}

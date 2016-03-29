@@ -1,0 +1,63 @@
+/* */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:salmon;
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: black;
+	color:white;
+	z-index: 1;
+}
+
+.nav{
+	padding: 21px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+ul li{
+	display:inline;
+	padding: 0 20px;
+}
+
+#container{
+	position: relative;
+	width:960px;
+	margin:60px auto 0 auto;
+	background:white;
+	z-index: 0;
+}
+
+.side{
+	position: absolute;
+ 	left: 0px;
+	width: 200px;
+	height: 100%;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+.side h2{
+	padding:20px 0;
+}
+
+.section{
+	margin-left:200px;
+	padding:20px;
+}
+
+.billMurray{
+	float:right;
+	margin-left: 20px;
+}

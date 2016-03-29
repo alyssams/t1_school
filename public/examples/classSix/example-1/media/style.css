@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+}
+.box {
+	width:200px;
+	height:200px;
+	background:orange;
+	position: absolute;
+	top:0;
+	left:0;
+	-webkit-animation-name: blueBox;
+	
+	-webkit-animation-duration: 3s;
+
+
+	-webkit-animation-iteration-count: infinite;
+
+	-webkit-timing-function: ease-out;
+
+	/*other properties*/
+	
+	-webkit-animation-delay: 2s;
+    -webkit-animation-direction: alternate;
+    
+
+}
+
+@-webkit-keyframes blueBox {
+	0%  { background:   blue;     top:0;    left:0; }
+	50% { background: purple;     top:0; left:300px;}
+	100%{ background: orange; top:300px; left:300px;}
+}
