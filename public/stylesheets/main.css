@@ -647,7 +647,7 @@ p {
   }
 }
 .ac-container input:checked ~ article.ac-large {
-  height: 400px;
+  height: 680px;
 }
 @media (min-width: 641px) and (max-width: 959px) {
   .ac-container input:checked ~ article.ac-large {
