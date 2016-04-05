@@ -33,6 +33,7 @@ $blue: #3FACEC;
 @import "modules/menu";
 @import "modules/set";
 @import "modules/accordion";
+@import "modules/grid";
 
 @mixin font-avenirLight {
     font-family: 'AvenirLTStd-Light', Helvetica, sans-serif;
