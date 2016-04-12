@@ -698,9 +698,6 @@ p {
   /* Opera */
   transition: all .5s ease;
 }
-.zoom-container img:nth-child(2) {
-  height: 27vh;
-}
 
 .zoom-container .zoom-caption {
   position: absolute;
