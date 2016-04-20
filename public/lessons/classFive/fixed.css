@@ -1,0 +1,12 @@
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: #f95b34;
+	padding: 10px 0px;
+}

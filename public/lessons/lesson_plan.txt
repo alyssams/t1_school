@@ -1,0 +1,82 @@
+1st class!
+
+- go over dev tools in ff and chrome for 30 minutes
+Let's build a frame!
+- doctype
+- - html
+- - head
+- - - title
+- - body
+- - - tags: open and close tags <> </>
+- - - header tags h1-h6
+- - - p tags
+- - - img tag
+
+Homework - experiment with dev tools and create html doc
+
+make reference list of sites
+
+2nd class
+
+Go over Homework from last class.
+
+exercise: Your webpage is blank as the day it was born! Let's add five things:
+			- The <!DOCTYPE> tag
+			- Your <html> tags
+			- Your <head> tags
+			- <title> tags (with any title you like!) between your head tags
+			- Your <body> tags
+			- add an image (give url for image)
+
+- anchor tags
+- linking text and images
+- indention: the amount each line is spaced in from the margin. You'll notice that when we place tags inside of other tags, we indent them more. This really helps make your code more readable! tabs vs spaces
+- ordered lists and unordered lists
+- comments
+- inline styles: font-size, font color, font-family, background, text-align, strong (bold), italic.
+
+Homework - Create a webpage that includes a linked image to your favorite site. Include an ordered list of your top three celebs and an unordered list of 3 things you need to buy at the grocery store. Make sure to indent and add a comment before you start your unordered list saying "this is an unordered list". Add at least 4 inline styles anywhere on the page.
+
+make a reference list of sites
+
+3rd class
+
+go over homework
+
+exercise - create a work portfolio that includes an image of your favorite client and a sentence or two of your work description. Include an ordered list of projects that you are currently on. Also an unordered list that include projects you've been on in the past. In the ol, the list items should be a green color and the ul list items should be have a blue color. the work description will be bolded.
+
+
+- divs: id, class
+- spans
+- intro to css - what is css? CSS (which stands for Cascading Style Sheets) is a language used to describe the appearance and formatting of your HTML.
+
+A style sheet is a file that describes how an HTML file should look. That's it!
+
+We say these style sheets are cascading because the sheets can apply formatting when more than one style applies. For instance, if you say all paragraphs should have blue font, but you specifically single out one paragraph to have red font, CSS can do that! 
+
+- - <style>
+- - linking stylesheet
+
+
+4th class 
+
+more about css
+exercise: go over linking stylesheet, closing tags, using css over inline styles
+
+- css syntax - selector, property, value. 
+- basic css selectors - changing colors, 
+
+
+5 class 
+
+more about css
+- background color, font size, text-decoration, font-color, size. all those inline styles we learned earliers we are going to put them in our external stylesheet!
+- introduce final project
+
+6th class
+
+go over final project
+tell them to email me projects to report to trevor and john
+
+
+

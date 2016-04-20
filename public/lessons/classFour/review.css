@@ -1,0 +1,48 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	width:960px;
+	margin:0 auto;
+	background:pink;
+}
+
+#header {
+	margin-left:20px;
+	color: red;
+}
+
+ul {
+	list-style:none;
+}
+
+li {
+	display:inline-block;
+}
+#container {
+	margin:10px;
+	background: grey;
+}
+
+.box {
+	width:100px;
+	height:100px;
+	border:3px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	padding:10px;
+}
+
+#blue {
+	background: blue;
+}
+
+#green {
+	background: green;
+}
+
+#yellow {
+	background: yellow;
+}

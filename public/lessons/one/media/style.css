@@ -1,0 +1,88 @@
+* {
+	margin: 0; 
+	padding: 0; 
+}
+body { 
+	font: 15px/2 Georgia, serif; 
+	background: #999; 
+}       
+h1 { 
+	color: white; 
+	padding: 10px; 
+}
+#container { 
+	max-width: 960px; 
+	min-width: 560px; 
+	margin: 0 auto; 
+	position: relative; 
+	z-index:-1;
+}
+
+header {
+	max-width: 960px; 
+	min-width: 560px; 
+	background: #222;
+    margin: 30px auto 0; 
+}
+article	{ 
+	padding: 0 0 0 190px; 
+	background: white; 
+}
+aside {
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	width: 160px; 
+	bottom: 0;
+    background: #eee; 
+    padding: 0 10px; 
+}               
+footer {
+	max-width: 960px; 
+	min-width: 560px; 
+	background:#222;
+    margin: 0 auto 15px; 
+}
+footer p {
+	padding: 10px; 
+	color: white; 
+}
+footer a {
+	color: white; 
+	border-bottom: 1px dotted white; 
+	text-decoration: none; 
+}
+footer a:hover {
+	border-bottom-style: solid; 
+}
+#border {
+	z-index:10;
+}
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+#left, #right {
+	top: 0; bottom: 0;
+	width: 15px;
+}
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+	left: 0; right: 0;
+	height: 15px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+
+/*another example css*/
+
+#wrapper {
+	/*width: 800px;*/
+	/*width: 80%;*/
+	width:80em;
+	margin:0 auto;
+	background:#ffffff;
+}

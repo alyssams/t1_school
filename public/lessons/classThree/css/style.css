@@ -1,0 +1,22 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	color:white;
+}
+div{
+	background-color:blue;
+	width: 500px;
+	height: 293px;
+	border:1px solid black;
+}
+p{
+	font-size:18px;
+}
+div div p{
+	color:yellow;
+}
+
+img {
+	width:200px;
+	height:100px;
+}

@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-family: 'Londrina Outline', cursive;
+	font-weight: 400;
+}
+h2 {
+	font-family: 'League Script', cursive;
+	font-weight: 400;
+}
+p {
+	font-size:15px;
+}
+#wrapper {
+	width:960px;
+	margin:0 auto;
+}
+#masthead {
+	background: rgb(79, 165, 192);
+	width:960px;
+	height:400px;
+}
+.text {
+	width:300px;
+	margin:0 auto;
+}		
+.text h1 {
+	font-size:150px;
+}
+.text h2 {
+	font-size:160px;
+}
+#header {
+	height:20px;
+}
+#header ul {
+	float:right;
+	/*list-style: none;*/
+}
+#header ul li {
+	display:inline-block;
+}
+#header ul li a{
+	text-decoration: none;
+}
+#sidebar {
+	width: 130px;
+	height: 300px;
+	float: left;			
+	margin-right: 20px;
+	margin-bottom:20px;
+	padding: 10px;
+	background-color: rgb(160, 228, 193);
+}
+#container {
+	width:770px;
+	height:300px;			
+	float:right;
+	margin-bottom:20px;
+	padding: 10px;
+	background-color: rgb(236, 223, 229);
+}
+#container a {
+	float:left;
+	margin-right: 20px;
+}
+#container ol {
+	position: relative;
+	top:20px;
+	left:20px;
+}
+#footer {
+	height:20px;
+	background-color: rgb(241, 241, 189);
+	clear:both;
+	font-size:12px;
+}
+#footer p {
+	padding-top:3px;
+}
